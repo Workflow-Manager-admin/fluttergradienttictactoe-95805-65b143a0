@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'home_page.dart';
 
 void main() {
   runApp(const TicTacToeApp());
@@ -15,7 +16,7 @@ class TicTacToeApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Roboto',
       ),
-      home: const TicTacToeGame(),
+      home: const HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
